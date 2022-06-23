@@ -1,0 +1,151 @@
+
+.banner{
+    max-width: 1600px;
+    margin: auto;
+    width: 100%;
+    min-height: 785px;
+    display: flex;
+    align-items: center;
+    background: url(../img/add_contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+
+.form-box{
+    width: 532px;
+    height: 660px;
+    border-radius: 30px;
+    /* position: relative; */
+    margin-left: 530px;
+    margin-top: 0px;
+    /* margin: 6% auto; */
+    background: #1c01015f;
+    /* mix-blend-mode: overlay; */
+    /* border: 1px solid #00000000; */
+    /* backdrop-filter: blur(4px); */
+    padding: 5px;
+    /* overflow: hidden; */
+    /* box-shadow: 5px 5px 5px 5px #21212158; */
+}
+
+.btn-box{
+    /* margin: 5% ; */
+    margin-top: 55px;
+    margin-left: 130px;
+    position: absolute;
+    /* background: #21b58e; */
+    width: 228px;
+    height: 73px;
+    border-radius: 31px;
+}
+
+.btn{
+    /* margin: 5% ; */
+    /* margin-left: 130px; */
+    position: absolute;
+    width: 228px;
+    height: 73px;
+    /* background: #000; */
+    /* mix-blend-mode: color linear-gradient(0deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), rgba(196, 196, 196, 0.82);; */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), rgba(196, 196, 196, 0.82);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.77), inset 0px 4px 4px rgb(0, 0, 0);
+    border-radius: 31px;
+}
+
+.lbl{
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 18px;
+    height: 40px;
+    width: 250px;
+    /* font-style: unset; */
+    font-weight: 400;
+    font-size: 34px;
+    /* line-height: 48px; */
+    color: #fff;
+    cursor: pointer;
+}
+
+.inp{
+    height: 60px;
+    width: 333px;
+    margin-left: 90px;
+    position: absolute;
+    cursor: pointer;
+}
+.inp::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.sub-btn{
+    position: absolute;
+    width: 171px;
+    height: 54px;
+    /* background: #a26666; */
+    /* mix-blend-mode: hard-light; */
+    border: 1px rgba(0, 0, 0, 0.289) solid;
+    border-radius: 8px;
+}
+.sub-btn:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.p{
+    position: absolute;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    margin-top: 180px;
+    margin-left: 130px;
+    color: #fff;
+}
+
+.reg{
+    cursor: pointer;
+}
+.reg:hover{
+    color: tomato;
+    font-size: 25px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    background: #d9d8d8;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    width: 100px;
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #757575;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #212121;
+    background-color: #fff;
+  }
+
+body::-webkit-scrollbar {
+    width: 2px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background: #d9d8d8;        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: blue;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #757575;  /* creates padding around scroll thumb */
+}
