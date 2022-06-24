@@ -14,6 +14,8 @@ Web Based Application using PHP.
 ### Run Locally
 - Paste the project in **htdocs** folder where xampp is installed.
 - open the XAMPP control panel and start *Apache* and *MySQL*.
+- Open the phpMyAdmin and create a database **"funwithmath"**.
+- Import the *funwithmath.sql* file present in the zip folder.
 - Now navigate to your browser and type
 ```bash
    localhost/
@@ -26,3 +28,11 @@ nevigate to project path from htdocs in the address bar
 - TailwindCSS
 - PHP
 - MySQL
+
+*******************************************************************************************************************************************
+
+
+CONTACT: sidhantkamble793@gmail.com
+
+
+*******************************************************************************************************************************************
